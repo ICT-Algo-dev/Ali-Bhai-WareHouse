@@ -1,0 +1,13 @@
+{
+  "customer": { "contactPerson": "Hazmat Contact", "businessName": "Hazmat Test Ltd", "phone": "07123456789", "email": "hazmat@example.co.uk" },
+  "products": [
+    {
+      "productName": "Test liquid", "sku": "LIQ-001", "barcode": "5012345678900", "category": "general-merchandise", "packingMode": "individual",
+      "boxes": [{ "boxNumber": 1, "units": 12, "weightKg": 12, "lengthCm": 40, "widthCm": 30, "heightCm": 25 }],
+      "hazmat": { "declaredStatus": "hazmat-dangerous-goods", "hazardTypes": ["flammable-liquid"], "sdsStatus": "available", "unNumber": "UN1993", "hazardClass": "3", "packingGroup": "II", "properShippingName": "Flammable liquid, n.o.s." },
+      "storage": ["hazmat-compliant"], "handling": { "physicalState": "liquid", "containsBatteries": false, "leakageOrDamageRisk": "not-sure", "isExpiryDated": false },
+      "amazon": { "sellsOnAmazon": false }
+    }
+  ],
+  "services": ["inventory-receiving"], "additionalInstructions": "", "consent": true, "website": ""
+}

@@ -1,0 +1,16 @@
+{
+  "customer": { "contactPerson": "Test User", "businessName": "Test Brand Ltd", "phone": "07123456789", "email": "test@example.co.uk" },
+  "products": [
+    {
+      "productName": "Test Cotton T-Shirt", "brandName": "TestBrand", "sku": "TSH-001", "barcode": "5012345678900", "category": "clothing-apparel",
+      "packingMode": "uniform",
+      "uniform": { "cartons": 10, "unitsPerCarton": 24, "cartonWeightKg": 12, "cartonLengthCm": 40, "cartonWidthCm": 30, "cartonHeightCm": 25 },
+      "hazmat": { "declaredStatus": "non-hazmat", "hazardTypes": [], "sdsStatus": "not-required" },
+      "storage": ["standard"],
+      "handling": { "physicalState": "solid", "containsBatteries": false, "leakageOrDamageRisk": "no", "isExpiryDated": false },
+      "amazon": { "sellsOnAmazon": false }
+    }
+  ],
+  "services": ["inventory-receiving", "product-inspection", "amazon-fba-prep"],
+  "additionalInstructions": "", "consent": true, "website": ""
+}

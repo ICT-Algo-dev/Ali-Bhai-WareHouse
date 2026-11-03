@@ -1,0 +1,13 @@
+import { Router } from 'express';
+import contactRoutes from './contact.routes.js';
+import quoteRoutes from './quote.routes.js';
+import healthRoutes from './health.routes.js';
+import adminRoutes from './admin.routes.js';
+import intakeRoutes from './intake.routes.js';
+const router = Router();
+router.use('/contact', contactRoutes);
+router.use('/quotes', quoteRoutes);
+router.use('/health', healthRoutes);
+router.use('/admin', adminRoutes);
+router.use('/intakes', intakeRoutes);
+export default router;
